@@ -1,0 +1,45 @@
+textarea,
+pre:first-of-type {
+  width: 100%;
+  min-height: 7em;
+  white-space: pre-wrap;
+  border-bottom: 1px dotted #248;
+}
+html {
+  font-size: 1em;
+  text-align: center;
+}
+
+body {
+  color: #222;
+  background: #fff;
+  font: 100% system-ui;
+}
+a {
+  color: #0033cc;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #121212;
+  }
+
+  body a {
+    color: #809fff;
+  }
+}
+
+textarea {
+  color: #fff;
+  background: rgb(37, 37, 37);
+  font: 100% system-ui;
+  width:150px; height:100px;
+  display: none;
+}
+
+#header {
+  color: #fff;
+  font: 75% system-ui;
+  margin-bottom: 1rem;
+}
